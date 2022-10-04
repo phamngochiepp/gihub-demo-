@@ -1,0 +1,39 @@
+table{
+    border-collapse: collapse;
+}
+table thead tr th {width: 100px;
+    text-align: center;
+    border: 0.5px solid rgb(92, 87, 87);
+    background-color: aliceblue;;
+    
+}
+td{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    border: 0.5px solid rgb(92, 87, 87);
+}
+td.item1{
+    background-color: rgb(204, 228, 228);
+}
+td.item2{background-color: aliceblue;}
+p{
+    text-align: center;
+}
+p > a{
+    color: blue;
+}
+td.item-1{
+    width: 140px;
+    text-align: center;
+}
+td.item-dam{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+} 
+th.item-dam{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+}
+td.item-dam2{border-bottom: 2px solid black;}
